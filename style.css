@@ -1,0 +1,44 @@
+*{
+    background-color: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.white-border{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 70vh;
+    width: 40vh;
+    transform: translate(-50%, -50%);
+}
+.qr-code{
+    width: 90%;
+    height: 50%;
+    margin-left: 2vh;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+}
+
+.qr{
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}
+.qr h2{
+    background-color: white;
+    font-size:  3vh;
+    position: absolute;
+    padding: 0 5% 0 5%;
+}
+.qr p{
+    background-color: white;
+    margin-top: 29%;
+    font-size: 1.95vh;
+    color:  hsl(220, 15%, 55%);
+    border-radius: 30px;
+}
